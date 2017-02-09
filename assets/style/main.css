@@ -61,9 +61,27 @@ footer {
   text-align: center;
 }
 .project-row {
-  margin: 25px 0;
+  margin: 25px;
+  padding: 5%;
 }
 
 .project_img {
   width: 200px;
+  padding-top: 20px;
+}
+
+.col-md-4 .project-thumbnail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.project-caption {
+  color: #333;
+  text-align: center;
+}
+.project-buttons {
+  display: flex;
+  justify-content: center;
 }
