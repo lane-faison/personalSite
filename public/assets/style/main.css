@@ -61,8 +61,8 @@ footer {
   text-align: center;
 }
 .project-row {
-  margin: 25px;
-  padding: 5%;
+  margin-bottom: 25px;
+  /*padding: 5%;*/
 }
 
 .project_img {
@@ -84,4 +84,21 @@ footer {
 .project-buttons {
   display: flex;
   justify-content: center;
+}
+
+.cover h2 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+
+.cover h2 {
+  color: white;
+  font: bold 24px/45px;
+  letter-spacing: 1px;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+  text-align: center;
 }
