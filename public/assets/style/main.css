@@ -81,6 +81,16 @@ a.navbar-brand {
   justify-content: center;
 }
 
+/************** CONTACT PAGE **************/
+.container {
+  border: 1px solid #000;
+}
+
+.email-btn {
+  margin: 10px;
+  height: 50px;
+}
+
 /************** FOOTER **************/
 footer {
   color: #333;
