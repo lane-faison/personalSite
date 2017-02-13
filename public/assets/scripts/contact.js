@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.email-btn').on('click', function(event) {
+  $('#email-btn').on('click', function(event) {
     event.preventDefault();
 
     let email = "faisonusmc@gmail.com";

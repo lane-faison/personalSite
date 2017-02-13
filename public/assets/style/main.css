@@ -83,19 +83,22 @@ a.navbar-brand {
 
 /************** CONTACT PAGE **************/
 .container {
-  border: 1px solid #000;
+  margin: 150px 0;
 }
 
-.email-btn {
+#email-btn {
   margin: 10px;
   height: 50px;
 }
 
+
+
 /************** FOOTER **************/
-footer {
-  color: #333;
+.navbar-fixed-bottom {
+  color: #9d9d9d;
   text-align: center;
-  bottom: 0;
-  left: 0;
-  right: 0;
+}
+
+#footer {
+  min-height: 25px;
 }
