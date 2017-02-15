@@ -11,6 +11,10 @@ a.navbar-brand {
   font-size: 30px;
 }
 
+#active {
+  color: #fff;
+}
+
 /************** COVER PHOTO **************/
 .cover {
   background: #000;
