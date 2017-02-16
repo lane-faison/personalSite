@@ -110,7 +110,16 @@ a.navbar-brand {
   font-size: 20px;
 }
 
+/************** BUTTONS **************/
+.btn {
+  margin: 0 10px;
+}
 
+/************** WIREFRAMES **************/
+.wireframes img {
+  width: 50%;
+  margin: 30px 20%;
+}
 
 /************** FOOTER **************/
 .navbar-fixed-bottom {
