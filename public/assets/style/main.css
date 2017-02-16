@@ -116,9 +116,33 @@ a.navbar-brand {
 }
 
 /************** WIREFRAMES **************/
+.wireframe_descriptions {
+  text-align: justify;
+  font-size: 20px;
+  margin: 25px 20% 10px 20%;
+}
+
 .wireframes img {
   width: 50%;
   margin: 30px 20%;
+}
+
+.mobile_mockups {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile_mockups img {
+  width: 75%;
+  max-width: 150px;
+  margin: 30px 30px 150px 0;
+}
+
+main .btn-wireframe {
+  margin: 20px 45% 50px 45%;
+  background: #bbb;
+  border: 2px solid #333;
+  color: #000;
 }
 
 /************** FOOTER **************/
