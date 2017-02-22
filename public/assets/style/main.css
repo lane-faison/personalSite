@@ -72,15 +72,27 @@ a.navbar-brand {
   padding-top: 20px;
 }
 
+.projects-title {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  color: rgba(250, 125, 0, 0.9);
+  text-shadow: 3px 3px 2px #777;
+  font-weight: bolder;
+}
+
 .col-md-4 .project-thumbnail {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 400px;
+  height: 450px;
+  min-width: 250px;
   margin-top: 30px;
   box-shadow: 5px 5px 2.5px #333;
-  background: #ccc;
-  opacity: 0.5;
+  background: #fff;
+  border: 3px solid #333;
+  opacity: 0.3;
 }
 
 .col-md-4 .project-thumbnail:hover {
@@ -90,12 +102,20 @@ a.navbar-brand {
 }
 
 .project-caption {
-  color: #333;
+  color: #000;
   text-align: center;
 }
+
 .project-buttons {
   display: flex;
   justify-content: center;
+}
+
+/*** Portfolio Animations ***/
+.moveUp {
+  transform: translateY(-50px);
+  transition-timing-function: ease-out;
+  transition: 0.5s;
 }
 
 /************** RESUME PAGE **************/
