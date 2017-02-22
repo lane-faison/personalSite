@@ -59,8 +59,12 @@ a.navbar-brand {
   text-align: center;
 }
 .project-row {
-  margin-bottom: 25px;
+  margin-bottom: 100px;
   padding: 0;
+}
+
+.sites-row {
+  margin: 0 50px;
 }
 
 .project_img {
@@ -74,6 +78,15 @@ a.navbar-brand {
   justify-content: space-between;
   height: 400px;
   margin-top: 30px;
+  box-shadow: 5px 5px 2.5px #333;
+  background: #ccc;
+  opacity: 0.5;
+}
+
+.col-md-4 .project-thumbnail:hover {
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.69);
+  background: #fff;
+  opacity: 1;
 }
 
 .project-caption {
@@ -154,7 +167,7 @@ a.navbar-brand {
 }
 
 main .btn-wireframe {
-  margin: 20px 45% 50px 45%;
+  margin: 20px 47% 50px 47%;
   background: #bbb;
   border: 2px solid #333;
   color: #000;
