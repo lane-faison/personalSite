@@ -12,7 +12,7 @@ a.navbar-brand {
 }
 
 #active {
-  color: #fff;
+  color: rgba(250, 125, 0, 1);
 }
 
 /************** COVER PHOTO **************/
@@ -37,14 +37,20 @@ a.navbar-brand {
   padding: 0 10px;
 }
 
-.caption p {
+.caption .summaries {
   color: #333;
   text-align: justify;
 }
 
-.caption h3 {
-  text-decoration: underline;
+.caption .subtitles {
   color: #333;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  color: rgba(250, 125, 0, 0.9);
+  text-shadow: 2px 1px 1px #777;
+  font-weight: bolder;
 }
 
 .tech-logos {
@@ -53,7 +59,18 @@ a.navbar-brand {
   margin: 10px;
 }
 
+.hovered-fav-tool, .hovered-eager-tool {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 40px auto 20px auto;
+}
 
+.tool-name {
+  font-size: 30px;
+  color: #555;
+  text-shadow: 1px 1px 4px #000;
+}
 /************** PROJECTS **************/
 .projects-header {
   text-align: center;
@@ -91,12 +108,12 @@ a.navbar-brand {
   margin-top: 30px;
   box-shadow: 5px 5px 2.5px #333;
   background: #fff;
-  border: 3px solid #333;
+  border: 10px solid #333;
   opacity: 0.3;
 }
 
 .col-md-4 .project-thumbnail:hover {
-  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.69);
+  box-shadow: 25px 25px 5px rgba(0, 0, 0, 0.69);
   background: #fff;
   opacity: 1;
 }
