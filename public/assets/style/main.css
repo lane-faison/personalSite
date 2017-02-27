@@ -76,7 +76,7 @@ a.navbar-brand {
   text-align: center;
 }
 .project-row {
-  margin-bottom: 100px;
+  margin-bottom: 25px;
   padding: 0;
 }
 
@@ -84,6 +84,9 @@ a.navbar-brand {
   margin: 0 50px;
 }
 
+.bottom-row {
+  margin-bottom: 200px;
+}
 .project_img {
   width: 200px;
   padding-top: 20px;
@@ -105,7 +108,7 @@ a.navbar-brand {
   justify-content: space-between;
   height: 450px;
   min-width: 250px;
-  margin-top: 30px;
+  margin-top: 0;
   box-shadow: 5px 5px 2.5px #333;
   background: #fff;
   border: 10px solid #333;
