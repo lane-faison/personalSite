@@ -1,5 +1,6 @@
 * {
-  font-family: 'PT Serif', serif;
+  /*font-family: 'PT Serif', serif;*/
+  font-family: 'Gill Sans', serif;
 }
 
 body {
@@ -13,6 +14,10 @@ a.navbar-brand {
 
 #active {
   color: rgba(250, 125, 0, 1);
+}
+
+.navbar-fixed-top {
+  font-size: 18px;
 }
 
 /************** COVER PHOTO **************/
@@ -39,6 +44,7 @@ a.navbar-brand {
 
 .caption .summaries {
   color: #333;
+  font-size: 20px;
   text-align: justify;
 }
 
