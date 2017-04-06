@@ -55,7 +55,6 @@ a.navbar-brand {
   font-size: 30px;
   letter-spacing: 0.1em;
   color: #EA4533;
-  text-shadow: 2px 1px 1px #777;
   font-weight: bolder;
 }
 
@@ -75,7 +74,7 @@ a.navbar-brand {
 .tool-name {
   font-size: 30px;
   color: #555;
-  text-shadow: 1px 1px 4px #000;
+  font-weight: bold;
 }
 /************** PROJECTS **************/
 .projects-header {
@@ -104,7 +103,6 @@ a.navbar-brand {
   font-size: 50px;
   letter-spacing: 0.1em;
   color: #EA4533;
-  text-shadow: 3px 3px 2px #777;
   font-weight: bolder;
 }
 
@@ -115,14 +113,12 @@ a.navbar-brand {
   height: 450px;
   min-width: 250px;
   margin-top: 0;
-  box-shadow: 5px 5px 2.5px #333;
   background: #fff;
   border: 10px solid #333;
   opacity: 0.3;
 }
 
 .col-md-4 .project-thumbnail:hover {
-  box-shadow: 25px 25px 5px rgba(0, 0, 0, 0.69);
   background: #fff;
   opacity: 1;
 }
@@ -139,7 +135,7 @@ a.navbar-brand {
 
 /*** Portfolio Animations ***/
 .moveUp {
-  transform: translateY(-50px);
+  transform: translateY(-20px);
   transition-timing-function: ease-out;
   transition: 0.5s;
 }
